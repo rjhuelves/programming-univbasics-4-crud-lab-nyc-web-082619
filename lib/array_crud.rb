@@ -15,23 +15,23 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  .pop("New Balance")
+  create_an_array.pop("New Balance")
 end
 
 def remove_element_from_start_of_array(array)
-  Nike = create_an_array
+  Nike = create_an_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  create_an_array[1]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  create_an_array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  create_an_array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
