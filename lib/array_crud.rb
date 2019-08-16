@@ -7,15 +7,15 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  << "Vans"
+  add_element_to_end_of_array << "Vans"
 end
 
 def add_element_to_start_of_array(array, element)
-  .unshift("Converse")
+  add_element_to_start_of_array.unshift("Converse")
 end
 
 def remove_element_from_end_of_array(array)
-  .pop("New Balance")
+  remove_element_from_end_of_array.pop("New Balance")
 end
 
 def remove_element_from_start_of_array(array)
